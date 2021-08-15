@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automart Sign-In</title>
+    <link rel="stylesheet" href="./sign-in.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a href="./homepage.html">AUTOMART<sup>&reg;</sup></a>
+      <img
+        src="../UI/pictures/2000px-Bentley_logo.svg.png"
+        alt="automart-logo"
+      />
+    </div>
+    <div class="info">
+        <div class="form">
+           <div class="form-head">
+        <h1>Sign In</h1>
+           </div> 
+           <div class="form-body">
+            <form onsubmit="alert('The form is submitted')" >
+             <label for="email" class="for-text" >Email:</label><br>
+             <input type="email" id="email" class="for-all" name="email"><br>
+             <label for="password" class="for-text" >Password:</label><br>
+             <input type="password" id="password" class="for-all" name="lname"><br>
+             <div class="butt">
+                   <button> Sign In</button>
+             
+             </div>
+            </form>
+        </div>
+        <div class="already">
+            <h3>Don't have an account? <a href="./sign-up.html">Sign Up</a> </h3>
+        </div>
+           </div>
+    </div>
+  </body>
+</html>

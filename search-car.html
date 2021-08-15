@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search for a Car</title>
+    <link rel="stylesheet" href="./search-car.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a href="./homepage.html">AUTOMART<sup>&reg;</sup></a>
+      <img
+        src="../UI/pictures/2000px-Bentley_logo.svg.png"
+        alt="automart-logo"
+      />
+    </div>
+    <div class="search-page">
+      <div class="left">
+        <h1>Search for a Car</h1>
+        <form onsubmit="alert('The form is submitted')" id="post">
+          <label for="search" class="for-text">Car Name:</label><br />
+          <input type="search" id="text" name="text" required /><br />
+
+          <label for="text" class="for-text">Price:</label><br />
+          <input type="text" id="text" name="text" required /><br />
+          <p>Manufacturer:</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select Manufacturer</option>
+            <option value="Mercedes Benz">Mercedes Benz</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Bentley">Bentley</option>
+            <option value="Rolls Royce">Rolls Royce</option>
+            <option value="Honda">Honda</option>
+            <option value="Kia">Kia</option>
+            <option value="Ford">Ford</option>
+            <option value="Hyundia">Hyundia</option>
+          </select>
+          <br />
+          <p>State of Car:</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select state of car</option>
+            <option value="Used">Used</option>
+            <option value="New">New</option>
+          </select>
+          <br />
+          <label for="text" class="for-text">Model:</label><br />
+          <input type="text" id="text" name="text" required /><br />
+          <div class="but">
+            <button>SEARCH CAR</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-left">
+        <h2>Subscribe to get notified of great offers <br />on Automart</h2>
+        <div class="sep">
+          <input type="email" placeholder="Enter email address" />
+          <div class="subscribe">
+            <h1>SUBSCRIBE</h1>
+          </div>
+        </div>
+      </div>
+      <div class="footer-right">
+        <h3>
+          Copyright © 2021. Automart by <a href="./homepage.html">Doyin </a>
+        </h3>
+        <p>
+          SSL Protection | Buy with confidence automart.com has been
+          security-scanned and is 100% protected by the Secure Socket Layer
+          certificate. All files and data sent over this site are fully
+          encrypted from third-party access.
+        </p>
+        <span class="edd">Automart ©2021 </span> <br />
+        <span class="edd"> Terms & Conditions Privacy Policy </span>
+      </div>
+    </footer>
+  </body>
+</html>

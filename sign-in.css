@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #48cae4;
+}
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000814;
+  }
+  
+  .header > a {
+    font-size: 2.8rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+  .header > a:hover{
+
+    color:  #48cae4 ;
+    transition: 0.3s;
+  }
+ 
+  
+  .header > img {
+    height: 100px;
+    width: 150px;
+    object-fit: contain;
+  }
+
+
+
+
+  .info {
+    background-color: #f8f9fa;
+    height: 100vh;
+  }
+
+  .info > .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .form-head > h1 {
+    color: #495057;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    padding-bottom: 5px;
+  }
+
+
+
+.form-body > form > .for-all{
+  background: #f2f5fa;
+  border-radius: 3px;
+  height: 2.2rem;
+  width: 300px;
+  outline: none;
+  
+}
+
+.form-body > form > input{
+
+    margin-bottom: 3px;
+}
+.form-body > form > .butt {
+    padding-top: 20px;
+}
+
+.form-body > form > .butt > button{
+    font-size: 2rem;
+    float: right;
+    color: #48cae4 ;
+    background-color:  #000814;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.form-body > form  > .for-text{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+.form > .already {
+  font-family: "Montserrat", sans-serif;
+padding-top: 10px;
+}
+
+
+
+
+
+/* .btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+} */
